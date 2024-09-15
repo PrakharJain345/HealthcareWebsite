@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.section {
+    padding: 60px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar-brand a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar-menu li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+    padding: 10px;
+}
+
+.dropdown li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Welcome Message */
+.welcome-message {
+    text-align: center;
+    padding: 40px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.welcome-message h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.welcome-message p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-card {
+    flex: 1 1 calc(33.33% - 20px);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: left;
+    color: #333;
+}
+
+.service-card h3 {
+    color: #007bff;
+}
+
+.service-card ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.service-card i {
+    font-size: 3em;
+    color: #007bff;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Background colors for each service */
+.cardiology {
+    background-color: #e6f7ff;
+}
+
+.orthopaedics {
+    background-color: #f2ffe6;
+}
+
+.neurology {
+    background-color: #fff5e6;
+}
+
+.service-card ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-divider {
+    width: 1px;
+    background-color: #555;
+    margin: 0 20px;
+}
+
+.footer-right p {
+    font-size: 14px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin: 0 0 20px;
+}
+
+.modal-content p {
+    font-size: 16px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Change background color of contact us section */
+#contact-us {
+    background-color: lightblue; /* Change this to your desired background color */
+}
+
+/* Make all 3 doctors in a same line with a circular profile image */
+#doctors ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#doctors li {
+    margin: 50px;
+}
+
+#doctors img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
